@@ -2,6 +2,7 @@
 
 # This script monitors which app steals focus away from you on Macbook
 # All credits and praise go to /u/fredfow3 ❤️, thank you again, you've saved me a headache trying to debug this issue
+# You might need to: `pip install pyobjc`
 
 try:
     from AppKit import NSWorkspace
